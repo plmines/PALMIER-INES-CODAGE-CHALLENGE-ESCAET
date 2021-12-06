@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ESCAET Coding Challenge</title>
+
+  <!-- Change these Google fonts with your own choice -->
+  <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Banner section -->
+  <div  class="banner">
+      <h1>Les randonneurs français du dimanche</h1>
+      <p>Le guide du randonneur</p>
+      <a class="btn-yellow" href="https://www.ennaturesimone.com/randonnee-journee-materiel-checklist/">En route !</a>  
+  </div>
+   
+  <!-- Cards section -->
+  <div class="container">
+    <h2>Les conseils pour une randonnée de qualité</h2>
+    <div class="cards">
+      <div class="card-white">
+        <img src="images/hike.jpg." alt="Hike">
+        <h3>Les entraînements avant une randonnée</h3>
+      </div>
+      
+      <div  class="card-white">
+        <img src="images/Montagne.jpg" alt="Montagne">
+        <h3>Les meilleurs sites de randonnée</h3>
+      </div>
+
+      <div  class="card-white">
+          <img src="images/Sport.jpg"  alt="Sport">
+          <h3>Les équipements</h3>
+      </div>    
+    </div>
+   </div>
+   
+   
+   <div  class="card-white">
+   <form method="post" action="traitement.php">
+     <p>
+        <label for="nom">Quel est votre nom?</label>
+        <input type="text" name="nom" id="nom" />
+
+     <p>
+        <label for="prénom">Quel est votre prénom?</label>
+        <input type="text" name="prénom" id="prénom" />
+
+     <p>
+       <label for="votre adresse mail">Votre adresse mail</label>
+       <input type="text" name="adresse mail" id="adresse mail" />
+
+     <p>
+        Pratiquez vous souvent la randonnée? :<br />
+        <input type="checkbox" name="oui" id="oui" /> <label for="oui">oui</label><br />
+        <input type="checkbox" name="non" id="non" /> <label for="non">non</label><br />
+       
+   </form>
+  </div> 
+
+
+  <!-- Footer section --> 
+  <div  class="footer">
+    
+    <p>En route pour une nouvelle aventure sur les sentiers!</p>
+  </div>
+   
+  </body>
+</html>
